@@ -1,0 +1,162 @@
+.user-management-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  margin: 20px auto;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.back-button {
+  background: linear-gradient(45deg, #008080, #009999);
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.back-button:hover {
+  background: linear-gradient(45deg, #006666, #007777);
+}
+
+.user-management-title {
+  color: #008080;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  width: 1000px;
+}
+
+.user-table th {
+  background: #008080;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.user-table tr:hover {
+  background-color: #f1f7f7;
+  transition: background 0.3s ease;
+}
+
+/* Role cells */
+.role-cell.admin {
+  font-weight: bold;
+  color: #ff9800;
+}
+.role-cell.staff {
+  font-weight: bold;
+  color: #2196f3;
+}
+
+/* Status badge */
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+}
+.status-badge.present {
+  background: #e6f7e6;
+  color: #2e7d32;
+  border: 1px solid #2e7d32;
+}
+.status-badge.absent {
+  background: #fdeaea;
+  color: #c62828;
+  border: 1px solid #c62828;
+}
+
+/* Buttons */
+.delete-button {
+  background: #ff4d4d;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.delete-button:hover {
+  background: #e60000;
+}
+
+.side-modal {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 400px;
+  overflow-y: auto;
+  background-color: #fff;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.3);
+  padding: 20px;
+  z-index: 200;
+}
+
+.attendance-history table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.attendance-history th,
+.attendance-history td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.attendance-history th {
+  background-color: #008080;
+  color: #fff;
+}
+
+.present {
+  color: #007700;
+  font-weight: bold;
+}
+
+.absent {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+.close-modal {
+  margin-top: 15px;
+  background-color: #008080;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  background-color: #006666;
+}

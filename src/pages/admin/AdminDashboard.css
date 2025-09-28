@@ -1,0 +1,65 @@
+
+.ad-container {
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  color: #004d40;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #26a69a; 
+  font-family: sans-serif;
+}
+
+.ad-title {
+  text-align: center;
+  font-size: 28px;
+  color: #00796b;
+  margin-bottom: 30px;
+}
+
+.ad-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ad-card {
+  background-color: #e0f2f1; 
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px #26a69a; 
+}
+
+.ad-card h3 {
+  margin-bottom: 10px;
+  color: #004d40; 
+}
+
+.ad-card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00796b;
+}
+
+.ad-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ad-button {
+  padding: 15px 30px;
+  background-color: #00796b; 
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ad-button:hover {
+  background-color: #004d40; 
+}

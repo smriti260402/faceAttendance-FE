@@ -1,0 +1,43 @@
+.am-container {
+  padding: 20px;
+  background-color: #e6f7f5;
+  min-height: calc(100vh - 120px); /* header + footer */
+}
+
+.am-title {
+  text-align: center;
+  color: #00796b;
+  margin-bottom: 20px;
+}
+
+.am-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.am-button {
+  background-color: #00796b;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.am-button:hover {
+  background-color: #004d40;
+}
+
+.upload-label input[type="file"] {
+  display: none;
+}
+
+.am-search {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #00796b;
+}
